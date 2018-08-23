@@ -1,0 +1,60 @@
+h1 {
+    color: rgb(255, 255, 255);
+  }
+/* Giving our navbar some padding and a background color */
+/* .navbar {
+  padding: 10px;
+  background: #4aaaa5;
+} */
+
+.navbar .nav > .navbar-brand > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color:  #4aaaa5;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
+
+  footer {
+    position: left;
+    clear: both;
+    color: #4aaaa5;
+    text-align:center;
+    height: 50px;	
+    line-height: 50px;
+    font-size: 90%;
+    margin-left:-100%;
+    margin-right:-100%;
+  }
