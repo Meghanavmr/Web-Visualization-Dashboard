@@ -15,7 +15,7 @@
 <body>
         <body style="background-color: lightgray">
     <!-- <nav class="navbar navbar-default"> -->
-        <div class="container-fluid">
+        <div class="container">
           <!--Row1  -->
           <div class="row">
             <div class="col-md-12 col-lg-12">
@@ -24,7 +24,8 @@
                   <!-- <div class="container"> -->
                       <div class="navbar-header">
                           <a class="navbar-brand logo" href="index.html"></a>
-                            <span class="nav-color">Latitude</span></a>
+                            <span class="nav-color", style = "color: #4aaaa5;font-size: 200%;
+                            font-weight:bold" >Latitude</span></a>
                             <!-- <button type="button" class="btn btn-primary">Latitude</button> -->
                       </div>
           
@@ -38,7 +39,7 @@
                               </ul>
                           </li>
                           <li><a href="Comparison.html"> Comparison</a></li>
-                          <li><a href="Data.html"> Data</a></li>                                           
+                          <li><a href="data.html"> Data</a></li>                                           
                       </div>
                   <!-- </div>       -->
               </nav>
@@ -50,41 +51,36 @@
           <div class="row">          
               <div class="col-md-8 col-lg-8"> 
               
-                    <h1>Summary: Latitude vs. X</h1>     
+                    <h1 class='page-titles'>Summary: Latitude vs. X</h1>     
            
             </div>   
 
     
           <div class="row">
-              <div class="col-md-8 col-lg-8"> 
-                  <a target="_blank" href="Temperature.html">
-                      <img src="assets/images/temperaturemap.png" alt="Temperature Map" width = "60%">
-                      
-                    </a>
-                
-                <section>
-                        <div class="col-md-8 col-lg-8"> 
-                    <p>***The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first
-                        pulled data from the OpenWeatherMapi API to assemble a dataset on over 500 cities. 
+            <div class="col-md-8 col-lg-8" style="display: inline-block"> 
+                <a target="_blank" href="Temperature.html" style="margin-right:10px;">
+                    <img src="assets/images/temperaturemap.png" alt="Temperature Map" width = "60%" style="float:left;">
+                </a>     
+                <p style="margin-left:10px !important;">
+                    ***The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first
+                        pulled data from the OpenWeatherMapi API to assemble a dataset on over 500 cities.
                         
-                        After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factoes we looked at included:
+                    After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factoes we looked at included:
                         temperature, cloudiness, wind speed and humidity. This also provides the source data visualizztions as part of the analysis as well as 
                         explanations and descriptions of any trends and correlations wtinessed.***
 
+                </p>
   
-                    </p>
-                </section>
                     <footer>
                             <p>© My Copyright Bootcamp 2018</p>
                     </footer>
               </div>      
-
-
            
               <div class="col-md-4">
                   <div class="panel panel-default">
                           <div class="panel-body">                                    
                               <h2>Visualizations</h2>
+                             
                               <hr>
   
                               <div class="row" >

@@ -1,6 +1,15 @@
 h1 {
     color: rgb(255, 255, 255);
   }
+
+
+h2 {
+  color: #4aaaa5;
+  font-size: 200%;
+  font-weight: bold
+
+  
+  }
 /* Giving our navbar some padding and a background color */
 /* .navbar {
   padding: 10px;
@@ -21,13 +30,14 @@ h1 {
   cursor: pointer;
   background: #fff;
   border-radius: 3px;
+  
 }
 
 /* Getting rid of the default link styles here */
 .navbar li a {
   color: #000;
   text-decoration: none;
-  font-size: 90%;
+ 
 }
   @media (max-width: 480px) {
     .navbar li {
@@ -59,3 +69,10 @@ h1 {
     margin-left:-100%;
     margin-right:-100%;
   }
+
+  .page-titles{
+    color: #4aaaa5;
+    font-size: 200%;
+  }
+
+  
